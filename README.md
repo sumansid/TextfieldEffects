@@ -1,5 +1,13 @@
 # Textfields-Styling-Extensions
 
+
+How to use ? 
+
+1. Drag and drop the Extension folder or extension.swift file to your project.
+2. Use the following functions as per your need.
+
+
+
 The Extension.swift files contains various styling extensions for UITextField like the following : 
 
 1. SetIcon : To put an icon on the left side of the textfield using UIImage.
