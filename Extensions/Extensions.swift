@@ -14,12 +14,14 @@ extension UITextField {
     func setIcon(_ image: UIImage) {
         let iconView = UIImageView(frame:
             CGRect(x: 10, y: 5, width: 20, height: 20))
+        iconView.tintColor = .blue
         iconView.image = image
         let iconContainerView: UIView = UIView(frame:
             CGRect(x: 20, y: 0, width: 30, height: 30))
         iconContainerView.addSubview(iconView)
         leftView = iconContainerView
         leftViewMode = .always
+        
     }
     
     func addShadowToTextField(color: UIColor = UIColor.gray, cornerRadius: CGFloat) {
@@ -37,7 +39,6 @@ extension UITextField {
     func setBottomBorder() {
       self.borderStyle = .none
       self.layer.backgroundColor = UIColor.white.cgColor
-
       self.layer.masksToBounds = false
       self.layer.shadowColor = UIColor.gray.cgColor
       self.layer.shadowOffset = CGSize(width: 0.0, height: 1.0)
@@ -46,13 +47,27 @@ extension UITextField {
         
     }
     
+    func setFloatingLabel(text : String) {
+        self.attributedPlaceholder = NSAttributedString(string: text,
+        attributes: [NSAttributedString.Key.foregroundColor: UIColor.blue])
+        self.contentVerticalAlignment = .center
+        
+        self.addTarget(self, action: #selector(textFieldDidChange(_:)), for: UIControl.Event.editingChanged)
+        self.contentVerticalAlignment = .center
+    }
     
-    
-    
-    
+    @objc func textFieldDidChange(_ textField: UITextField) {
+        textField.contentVerticalAlignment = .top
+
+    }
     
     
 }
+
+
+
+
+
 
 
 
