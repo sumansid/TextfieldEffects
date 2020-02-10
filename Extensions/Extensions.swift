@@ -47,19 +47,13 @@ extension UITextField {
         
     }
     
-    func setFloatingLabel(text : String) {
-        self.attributedPlaceholder = NSAttributedString(string: text,
-        attributes: [NSAttributedString.Key.foregroundColor: UIColor.blue])
-        self.contentVerticalAlignment = .center
-        
-        self.addTarget(self, action: #selector(textFieldDidChange(_:)), for: UIControl.Event.editingChanged)
-        self.contentVerticalAlignment = .center
-    }
-    
-    @objc func textFieldDidChange(_ textField: UITextField) {
-        textField.contentVerticalAlignment = .top
+    func changePlaceholderColor(placeholder : String, color: UIColor) {
+        self.attributedPlaceholder = NSAttributedString(string: placeholder,
+        attributes: [NSAttributedString.Key.foregroundColor: color])
 
     }
+    
+    
     
     
 }
