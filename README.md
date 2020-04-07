@@ -31,7 +31,6 @@
     
     <img width="271" alt="Screen Shot 2020-02-02 at 8 20 03 AM" src="https://user-images.githubusercontent.com/53033648/73608774-db99fd80-4594-11ea-8bac-27729bbca25b.png">
     
-4. Floating Label (Like SkyScanner) : 
 
 
 
