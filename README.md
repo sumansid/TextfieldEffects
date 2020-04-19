@@ -8,7 +8,7 @@
 ```
 
 
-## The Extension.swift files contains various styling extensions for UITextField like the following : 
+The Extension.swift files contains various styling extensions for UITextField like the following : 
 
 1. SetIcon : To put an icon on the left side of the textfield using UIImage.
     Result : 
@@ -16,8 +16,6 @@
     ![Email Unit](https://user-images.githubusercontent.com/53033648/73608757-a42b5100-4594-11ea-99ed-688c9a47dae1.png)
     
     
-
-
 2. AddShadowToTextField : To add a shadow to any textfield.
     Result : 
     
