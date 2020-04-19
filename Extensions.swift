@@ -7,8 +7,6 @@
 //
 
 import UIKit
-
-
 extension UITextField {
     
     func setIcon(_ image: UIImage) {
@@ -50,18 +48,5 @@ extension UITextField {
     func changePlaceholderColor(placeholder : String, color: UIColor) {
         self.attributedPlaceholder = NSAttributedString(string: placeholder,
         attributes: [NSAttributedString.Key.foregroundColor: color])
-
-    }
-    
-    
-    
-    
+    }   
 }
-
-
-
-
-
-
-
-
