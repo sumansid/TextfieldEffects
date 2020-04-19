@@ -2,13 +2,11 @@
 //  Extensions.swift
 //  Extensions for textfields
 //
-//  Created by Suman Sigdel on 2/2/20.
+//  Created by Suman Sigdel on 4/19/20.
 //  Copyright © 2020 Suman Sigdel. All rights reserved.
 //
 
 import UIKit
-
-
 extension UITextField {
     
     func setIcon(_ image: UIImage) {
@@ -33,35 +31,20 @@ extension UITextField {
      self.layer.shadowOpacity = 1.0
      self.backgroundColor = .white
      self.layer.cornerRadius = cornerRadius
-        
     }
     
-    func setBottomBorder() {
+    func setBottomBorder(color : UIColor = UIColor.white, shadowColor: UIColor = UIColor.gray) {
       self.borderStyle = .none
-      self.layer.backgroundColor = UIColor.white.cgColor
+      self.layer.backgroundColor = color.cgColor
       self.layer.masksToBounds = false
-      self.layer.shadowColor = UIColor.gray.cgColor
+      self.layer.shadowColor = shadowColor.cgColor
       self.layer.shadowOffset = CGSize(width: 0.0, height: 1.0)
       self.layer.shadowOpacity = 1.0
       self.layer.shadowRadius = 0.0
-        
     }
     
     func changePlaceholderColor(placeholder : String, color: UIColor) {
         self.attributedPlaceholder = NSAttributedString(string: placeholder,
         attributes: [NSAttributedString.Key.foregroundColor: color])
-
-    }
-    
-    
-    
-    
+    }   
 }
-
-
-
-
-
-
-
-
