@@ -2,11 +2,11 @@
 
 All in one extension file for textfield styling.
 
-## How to use ? 
-```bash
+##### How to use ? 
+
 1. Drag and drop the Extension folder or extension.swift file to your project.
 2. Use the following functions as per your need.
-```
+
 
 
 The Extension.swift files contains various styling extensions for UITextField like the following : 
@@ -42,6 +42,6 @@ Result :
 Result : 
 
     ![Screen Shot 2020-04-20 at 10 45 54](https://user-images.githubusercontent.com/49789834/79726881-2a357900-82f4-11ea-8fd3-0b8318ec0202.png)
-=======
+
 ## Contributing
 Pull requests are welcome. 
