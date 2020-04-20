@@ -1,5 +1,6 @@
 # Textfields-Styling-Extensions
 
+All in one extension file for textfield styling.
 
 ## How to use ? 
 ```bash
@@ -8,7 +9,7 @@
 ```
 
 
-## The Extension.swift files contains various styling extensions for UITextField like the following : 
+The Extension.swift files contains various styling extensions for UITextField like the following : 
 
 1. SetIcon : To put an icon on the left side of the textfield using UIImage.
     Result : 
@@ -16,8 +17,6 @@
     ![Email Unit](https://user-images.githubusercontent.com/53033648/73608757-a42b5100-4594-11ea-99ed-688c9a47dae1.png)
     
     
-
-
 2. AddShadowToTextField : To add a shadow to any textfield.
     Result : 
     
@@ -32,6 +31,7 @@
     <img width="271" alt="Screen Shot 2020-02-02 at 8 20 03 AM" src="https://user-images.githubusercontent.com/53033648/73608774-db99fd80-4594-11ea-8bac-27729bbca25b.png">
     
 
+
 4. addRoundedCorner : To make a border around the textfield.
 Result : 
 
@@ -42,3 +42,6 @@ Result :
 Result : 
 
     ![Screen Shot 2020-04-20 at 10 45 54](https://user-images.githubusercontent.com/49789834/79726881-2a357900-82f4-11ea-8fd3-0b8318ec0202.png)
+=======
+## Contributing
+Pull requests are welcome. 
