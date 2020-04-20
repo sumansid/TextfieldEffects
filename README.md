@@ -2,7 +2,7 @@
 
 All in one extension file for textfield styling.
 
-##### How to use ? 
+### How to use ? 
 
 1. Drag and drop the Extension folder or extension.swift file to your project.
 2. Use the following functions as per your need.
