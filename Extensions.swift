@@ -24,14 +24,10 @@ extension UITextField {
     
     func addShadowToTextField(color: UIColor = UIColor.gray, cornerRadius: CGFloat) {
 
-        //removed setting the background color so it can be set by the user
-        //     self.backgroundColor = UIColor.white
-        self.backgroundColor = UIColor.white
         self.layer.masksToBounds = false
         self.layer.shadowColor = color.cgColor
         self.layer.shadowOffset = CGSize(width: 0, height: 0)
         self.layer.shadowOpacity = 1.0
-        //     self.backgroundColor = .white
         self.layer.cornerRadius = cornerRadius
         
     }
@@ -44,28 +40,9 @@ extension UITextField {
         self.layer.shadowOffset = CGSize(width: 0.0, height: 1.0)
         self.layer.shadowOpacity = 1.0
         self.layer.shadowRadius = 0.0
-        
-=======
-
-     self.backgroundColor = UIColor.white
-     self.layer.masksToBounds = false
-     self.layer.shadowColor = color.cgColor
-     self.layer.shadowOffset = CGSize(width: 0, height: 0)
-     self.layer.shadowOpacity = 1.0
-     self.backgroundColor = .white
-     self.layer.cornerRadius = cornerRadius
+    
     }
     
-    func setBottomBorder(color : UIColor = UIColor.white, shadowColor: UIColor = UIColor.gray) {
-      self.borderStyle = .none
-      self.layer.backgroundColor = color.cgColor
-      self.layer.masksToBounds = false
-      self.layer.shadowColor = shadowColor.cgColor
-      self.layer.shadowOffset = CGSize(width: 0.0, height: 1.0)
-      self.layer.shadowOpacity = 1.0
-      self.layer.shadowRadius = 0.0
-
-    }
     
     func changePlaceholderColor(placeholder : String, color: UIColor) {
         self.attributedPlaceholder = NSAttributedString(string: placeholder,
@@ -89,9 +66,5 @@ extension UITextField {
         
     }
     
-    
-=======
-        attributes: [NSAttributedString.Key.foregroundColor: color])
-    }   
 
 }
