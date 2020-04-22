@@ -5,7 +5,6 @@
 //  Created by Suman Sigdel on 4/19/20.
 //  Copyright © 2020 Suman Sigdel. All rights reserved.
 //
-
 import UIKit
 extension UITextField {
     
@@ -42,13 +41,11 @@ extension UITextField {
         self.layer.shadowRadius = 0.0
     
     }
-    
-    
+   
     func changePlaceholderColor(placeholder : String, color: UIColor) {
         self.attributedPlaceholder = NSAttributedString(string: placeholder,
 
                                                         attributes: [NSAttributedString.Key.foregroundColor: color])
-        
     }
     
     //Added this to setup the text attributes
@@ -63,8 +60,5 @@ extension UITextField {
         self.layer.cornerRadius = cornerRadius
         self.layer.borderWidth = borderWidth
         self.layer.borderColor = color.cgColor
-        
     }
-    
-
 }
