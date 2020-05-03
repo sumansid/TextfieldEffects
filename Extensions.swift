@@ -14,7 +14,7 @@ extension UITextField {
         iconView.tintColor = .blue
         iconView.image = image
         let iconContainerView: UIView = UIView(frame:
-            CGRect(x: 20, y: 0, width: 40, height: 30)) // chnaged width from 30 to 40 to give some space between icon and corser
+            CGRect(x: 20, y: 0, width: 40, height: 30))
         iconContainerView.addSubview(iconView)
         leftView = iconContainerView
         leftViewMode = .always
@@ -22,7 +22,6 @@ extension UITextField {
     }
     
     func addShadowToTextField(color: UIColor = UIColor.gray, cornerRadius: CGFloat) {
-
         self.layer.masksToBounds = false
         self.layer.shadowColor = color.cgColor
         self.layer.shadowOffset = CGSize(width: 0, height: 0)
