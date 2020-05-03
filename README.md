@@ -43,7 +43,7 @@ All in one extension file for textfield styling.
 
     ![Screen Shot 2020-04-20 at 10 45 54](https://user-images.githubusercontent.com/49789834/79726881-2a357900-82f4-11ea-8fd3-0b8318ec0202.png)
     
-#### Contributors : [@nbpapps](https://github.com/nbpapps)
+## Contributors : [@nbpapps](https://github.com/nbpapps)
 
 ## Contributing
 Pull requests are welcome. 
