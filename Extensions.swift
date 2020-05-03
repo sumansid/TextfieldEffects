@@ -48,7 +48,6 @@ extension UITextField {
                                                         attributes: [NSAttributedString.Key.foregroundColor: color])
     }
     
-    //Added this to setup the text attributes
     func setTextAlignment(textAlignment : NSTextAlignment = .left, fontSize : CGFloat = 14.0,weight : UIFont.Weight = .regular) {
         self.textAlignment = textAlignment
         self.font = UIFont.systemFont(ofSize: fontSize, weight: weight)
