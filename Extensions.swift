@@ -3,7 +3,7 @@
 //  Extensions for textfields
 //
 //  Created by Suman Sigdel and Niv Ben-porath on 4/19/20.
-//  Copyright © 2020 Suman Sigdel. All rights reserved.
+//  Copyright © 2020 Suman Sigdel, Niv Ben-porath. All rights reserved.
 //
 import UIKit
 extension UITextField {
