@@ -54,7 +54,7 @@ extension UITextField {
         
     }
     
-    //Added this for rounded corners
+
     func addRoundedCorner(cornerRadius: CGFloat, borderWidth : CGFloat = 1.0,color : UIColor = UIColor.label) {
         self.layer.cornerRadius = cornerRadius
         self.layer.borderWidth = borderWidth
