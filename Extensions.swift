@@ -38,7 +38,6 @@ extension UITextField {
         self.layer.shadowOffset = CGSize(width: 0.0, height: 1.0)
         self.layer.shadowOpacity = 1.0
         self.layer.shadowRadius = 0.0
-    
     }
    
     func changePlaceholderColor(placeholder : String, color: UIColor) {
@@ -52,8 +51,7 @@ extension UITextField {
         self.font = UIFont.systemFont(ofSize: fontSize, weight: weight)
         
     }
-    
-
+   
     func addRoundedCorner(cornerRadius: CGFloat, borderWidth : CGFloat = 1.0,color : UIColor = UIColor.label) {
         self.layer.cornerRadius = cornerRadius
         self.layer.borderWidth = borderWidth
