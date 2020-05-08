@@ -41,9 +41,7 @@ extension UITextField {
     }
    
     func changePlaceholderColor(placeholder : String, color: UIColor) {
-        self.attributedPlaceholder = NSAttributedString(string: placeholder,
-
-                                                        attributes: [NSAttributedString.Key.foregroundColor: color])
+        self.attributedPlaceholder = NSAttributedString(string: placeholder, attributes: [NSAttributedString.Key.foregroundColor: color])
     }
     
     func setTextAlignment(textAlignment : NSTextAlignment = .left, fontSize : CGFloat = 14.0,weight : UIFont.Weight = .regular) {
