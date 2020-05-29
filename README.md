@@ -29,15 +29,14 @@ All in one extension file for textfield styling.
     
     <img width="271" alt="Screen Shot 2020-02-02 at 8 20 03 AM" src="https://user-images.githubusercontent.com/53033648/73608774-db99fd80-4594-11ea-8bac-27729bbca25b.png">
     
+4. changePlaceholderColor : To change the textfield's placeholder color.
 
 
-4. addRoundedCorner : To make a border around the textfield.
+5. addRoundedCorner : To make a border around the textfield.
 
 
     ![Screen Shot 2020-04-20 at 10 27 59](https://user-images.githubusercontent.com/49789834/79726401-65837800-82f3-11ea-9248-0830aa71a83f.png)
     
-5. changePlaceHolderColor
-
 
 6. setTextAlignment : To set a textfield with a different alignment, font size and font weight.
 
