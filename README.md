@@ -31,6 +31,8 @@ All in one extension file for textfield styling.
     
 4. changePlaceholderColor : To change the textfield's placeholder color.
 
+<img width="236" alt="Screen Shot 2020-05-28 at 10 45 57 PM" src="https://user-images.githubusercontent.com/53033648/83273966-228ead00-a19b-11ea-95f6-a44d0dfe72c4.png">
+
 
 5. addRoundedCorner : To make a border around the textfield.
 
