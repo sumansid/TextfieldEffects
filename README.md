@@ -1,5 +1,7 @@
 # Textfields-Styling-Extensions
 
+[![HitCount](http://hits.dwyl.com/sumansid/TextfieldEffects.svg)](http://hits.dwyl.com/sumansid/TextfieldEffects)
+
 All in one extension file for textfield styling.
 
 ### How to use ? 
